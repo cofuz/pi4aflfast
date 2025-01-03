@@ -1,0 +1,27 @@
+start_time        : 1734335824
+last_update       : 1734353820
+fuzzer_pid        : 2430
+cycles_done       : 11166168
+execs_done        : 1022133
+execs_per_sec     : 0.00
+paths_total       : 44
+paths_favored     : 2
+paths_found       : 34
+paths_imported    : 0
+max_depth         : 11
+cur_path          : 31
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.14%
+unique_crashes    : 7
+unique_hangs      : 0
+last_path         : 1734339905
+last_crash        : 1734339905
+last_hang         : 0
+execs_since_crash : 689667
+exec_timeout      : 100
+afl_banner        : main2f
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -i in -o asanoutputmain2f1_15 -m none -C -- ./main2f @@

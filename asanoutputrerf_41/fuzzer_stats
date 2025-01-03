@@ -1,0 +1,27 @@
+start_time        : 1735622515
+last_update       : 1735633311
+fuzzer_pid        : 3557502
+cycles_done       : 236
+execs_done        : 726787
+execs_per_sec     : 56.52
+paths_total       : 39
+paths_favored     : 2
+paths_found       : 29
+paths_imported    : 0
+max_depth         : 10
+cur_path          : 13
+pending_favs      : 0
+pending_total     : 0
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 0.14%
+unique_crashes    : 7
+unique_hangs      : 0
+last_path         : 1735632044
+last_crash        : 1735632044
+last_hang         : 0
+execs_since_crash : 129167
+exec_timeout      : 100
+afl_banner        : rerf
+afl_version       : 2.51b
+command_line      : ./afl-fuzz -i in -o asanoutputrerf_41 -m none -C -- ./rerf @@
